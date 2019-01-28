@@ -1,0 +1,17 @@
+{
+  "name": "ts-plugin",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "@wynd/tslint-config-wynd": "^1.2.0",
+    "prettier": "^1.16.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
+  },
+  "scripts": {
+    "compile": "tsc -p ./src",
+    "watch": "tsc --watch -p ./src"
+  }
+}
