@@ -5,8 +5,11 @@
         "lib": [
             "esnext"
         ],
-        "outDir": "./lib/",
-        "declaration": true,
-        "declarationDir": "./lib/"
+        "declaration": false,
+        "plugins": [
+            {
+                "name": "@lsagetlethias/ts-plugin"
+            }
+        ]
     }
 }

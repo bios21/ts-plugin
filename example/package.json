@@ -1,0 +1,13 @@
+{
+  "name": "@lsagetlethias/ts-plugin-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@lsagetlethias/ts-plugin": "1.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p",
+    "watch": "tsc --watch"
+  }
+}
