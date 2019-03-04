@@ -1,3 +1,4 @@
 #! /bin/sh +x
 rm -rf log/*
-TSS_LOG="-level terse -file $(pwd)/log/tsserver.log" && code .
+export TSS_LOG="-level terse -file $(pwd)/log/tsserver.log"
+code .

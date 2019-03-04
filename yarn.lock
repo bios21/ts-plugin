@@ -412,6 +412,11 @@ tsutils@^3.0.0, tsutils@^3.5.0:
   dependencies:
     tslib "^1.8.1"
 
+typescript-template-language-service-decorator@^2.2.0:
+  version "2.2.0"
+  resolved "https://nexus.wynd.eu/repository/npm/typescript-template-language-service-decorator/-/typescript-template-language-service-decorator-2.2.0.tgz#4ee6d580f307fb9239978e69626f2775b8a59b2a"
+  integrity sha512-xiolqt1i7e22rpqMaprPgSFVgU64u3b9n6EJlAaUYE61jumipKAdI1+O5khPlWslpTUj80YzjUKjJ2jxT0D74w==
+
 typescript@^3.2.4:
   version "3.3.3"
   resolved "https://registry.npmjs.org/typescript/-/typescript-3.3.3.tgz#f1657fc7daa27e1a8930758ace9ae8da31403221"
